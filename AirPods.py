@@ -1,11 +1,9 @@
 #!python3
-
 '''
 AirPods Stock Checker
 
 	Brandon Asuncion
 	brandon@suncion.tech
-
 '''
 
 import urllib.request
@@ -16,7 +14,7 @@ import sys
 
 LOCATION = '92606'	# location of search (eg. a zipcode)
 STORE_LOC = []		# stores to send notifications for
-					# leave empty to notify for all locations in search
+			# leave empty to notify for all locations in search
 REFRESH = 30		# in seconds, how often to refresh
 
 PUSHOVER_TOKEN = ''
@@ -62,7 +60,6 @@ def main():
 		for s in data['body']['stores']:
 			
 			available = s['partsAvailability']['MMEF2AM/A']['pickupDisplay'] == "available"
-			
 			if available:
 				
 				# if available and newly stocked
