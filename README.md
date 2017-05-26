@@ -1,6 +1,9 @@
 # AirPods Stock Checker
 Python script that periodically checks Apple's stock for AirPods at nearby stores, and sends a notification via Pushover when they become available.
 
+## Dependencies
+* [Pushover](https://pushover.net/)
+
 ## Setup
 1. Modify `PUSHOVER_TOKEN` and `PUSHOVER_USER` to your Pushover API keys.
 2. Set `LOCATION` to the search query for your location. (eg. a zipcode)
@@ -12,7 +15,4 @@ Python script that periodically checks Apple's stock for AirPods at nearby store
 	```
 
 ## Credits
-Brandon Asuncion - brandon@suncion.tech
-
-## Acknowledgements
-[Pushover](https://pushover.net/)
+Brandon Asuncion - me@brandonasuncion.tech
