@@ -16,3 +16,6 @@ Python script that periodically checks Apple's stock for AirPods at nearby store
 
 ## Credits
 Brandon Asuncion - me@brandonasuncion.tech
+
+## License
+* [MIT License](https://choosealicense.com/licenses/mit/)
